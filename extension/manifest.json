@@ -1,0 +1,8 @@
+{
+  "manifest_version": 3,
+  "name": "CampusNest",
+  "version": "0.1.0",
+  "description": "Find student rooms near your Sydney campus",
+  "action": { "default_popup": "popup.html", "default_title": "CampusNest" },
+  "host_permissions": ["http://localhost:8000/*"]
+}
