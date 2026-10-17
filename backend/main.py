@@ -15,7 +15,11 @@ from pydantic import BaseModel, Field
 import db
 from data import CAMPUSES, STATIONS, SUBURBS
 
+import pathlib
 
+from dotenv import load_dotenv
+
+load_dotenv(pathlib.Path(__file__).parent / ".env")
 
 
 app = FastAPI(title="CampusNest API")
